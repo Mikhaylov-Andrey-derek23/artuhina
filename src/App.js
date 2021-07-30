@@ -23,7 +23,7 @@ function App() {
       </header>
       <Congratulations/>
       <h2 className="text-center py-3">
-        Подарок в День рождения твоя детская песня!
+        Подарок в День рождения Ваша детская песня!
       </h2>
       {
         data.length > 0 ?data.map( (e, index)=> <Card data={e} key={index}/>) : ''
